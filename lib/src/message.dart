@@ -111,7 +111,7 @@ class Message {
     var notificationObj = {
       'notification': true,
       'method': method,
-      'data ': data ?? {},
+      'data': data ?? {},
     };
 
     return notificationObj;
